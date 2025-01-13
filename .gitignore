@@ -1,0 +1,8 @@
+dist
+node_modules
+responses
+screenshots
+payloads
+*.ipynb
+*.ipynb_checkpoints
+*.pyc
