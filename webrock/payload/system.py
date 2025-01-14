@@ -28,6 +28,7 @@ The image accompanying this text is a color-annotated screenshot of the current 
 * <a> is "#FF69B4" (hot pink)
 * <input> is "#00FF00" (light green)
 * <div> is '#00FFFF' (cyan)
+* All other elements are '#FF0000'
 
 This is a list containing information on every annotated element where the `idNumber` field corresponds to the number inside the box in the image:
 ```
@@ -54,5 +55,10 @@ actions and current state of the webpage, you think the goal has been accomplish
 Note that the goal you are about to be given is final and constant, and will be the same regardless of how many actions you take.
 
 Please only respond with one JSON blob. Each action changes the state of the website, so subsequent actions are invalid until you are given the new state.
+
+Here are some additional tips to help you:
+- 1: If there is a popup on the page for cookies or advertising that has nothing to do with the goal, try to close it first before proceeding. As this can block the goal from being completed.
+- 2: Do not exceed the scope of the users goal.
+
 Begin! Reminder to ALWAYS respond with a valid json blob of a single action. Use tools if necessary.
 """
